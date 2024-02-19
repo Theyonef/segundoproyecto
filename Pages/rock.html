@@ -8,28 +8,28 @@
   <link rel="stylesheet" href="../css/styles.css"> 
 </head>
 <body>
-  <div class="container">
-    <header class="text-center my-4">
-      <img src="https://www.freewebheaders.com/wp-content/gallery/audio-video/colorful-audio-video-led-bars-website-header.jpg" alt="Header Image" class="img-fluid">
-    </header>
+  <header>
+    <img src="../img/headerbanner.jpg" alt="Header Image" class="img-fluid">
+    <nav>
+      <ul class="list-group">
+        <li class="list-group-item"><a href="../index.html">Inicio</a></li>
+        <li class="list-group-item"><a href="rock.html">Rock</a></li>
+        <li class="list-group-item"><a href="jazz.html">Jazz</a></li>
+        <li class="list-group-item"><a href="electronica.html">Electrónica</a></li>
+        <li class="list-group-item"><a href="reggae.html">Reggae</a></li>
+        <li class="list-group-item"><a href="hiphop.html">Hip Hop</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main class="container">
     <div class="row">
-      <div class="col-md-4">
-        <h2 class="text-light">Menu</h2>
-        <ul class="list-group">
-            <li class="list-group-item"><a href="../index.html">Inicio</a></li>
-            <li class="list-group-item"><a href="rock.html">Rock</a></li>
-            <li class="list-group-item"><a href="jazz.html">Jazz</a></li>
-            <li class="list-group-item"><a href="electronica.html">Electrónica</a></li>
-            <li class="list-group-item"><a href="reggae.html">Reggae</a></li>
-            <li class="list-group-item"><a href="hiphop.html">Hip Hop</a></li>
-          </ul>
-      </div>
       <div class="col-md-8">
-        <h2 class="text-light">Contenido</h2>
+        <h2 class="text-light">Informacion</h2>
         <div class="content-grid">
           <div class="content-item">
             <h3 class="text-light">Artista Destacado</h3>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Gustavo_Cerati.jpg" alt="Artista Destacado" class="img-fluid">
+            <img src="../img/Gustavo_Cerati.jpg" alt="Artista Destacado" class="img-fluid">
             <center><p class="text-light">Gustavo Cerati</p></center>
           </div>
           <div class="content-item">
@@ -47,12 +47,12 @@
             </ol>
           </div>
         </div>
+        <iframe class="spotify" style="border-radius:12px" src="https://open.spotify.com/embed/artist/7An4yvF7hDYDolN4m5zKBp?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
       </div>
-      <iframe class="spotify" style="border-radius:12px" src="https://open.spotify.com/embed/artist/7An4yvF7hDYDolN4m5zKBp?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
     </div>
-  </div>
+  </main>
 
-  <footer class="text-center mt-4">
+  <footer>
     <div class="container">
       <div class="row">
         <div class="col-md-4">
@@ -80,7 +80,6 @@
             <li><a class="text-light" href="#">Facebook</a></li>
             <li><a class="text-light" href="#">Twitter</a></li>
             <li><a class="text-light" href="#">Instagram</a></li>
-
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
               <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
             </svg>
